@@ -1,0 +1,52 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #f8f9fa;
+}
+
+main {
+  background-color: #e9ecef; 
+  padding: 20px 0; 
+}
+
+#Home {
+  background-image: url('pexels-bohlemedia-1884581.jpg');
+  background-size: cover;
+  background-position: center; 
+  color: white; 
+  padding: 60px 20px; 
+}
+
+#Products {
+  background-color: #fdfdfd; 
+}
+
+footer {
+  background-color: #f8f9fa;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 0;
+ }
+.card img {
+  height: 200px; 
+  object-fit: cover; 
+ }
+
+@media (max-width: 576px) {
+  .card {
+      margin-bottom: 20px; 
+  }
+}
+
+@media (min-width: 768px) {
+  .card {
+      margin-bottom: 30px;
+  }
+}
